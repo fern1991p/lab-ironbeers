@@ -1,0 +1,9 @@
+<h1> RANDOM BEERS PAGE </h1>
+
+{{#each beers}}
+{{>beerpartial this}} 
+  <p> {{this.description}} <br>  {{this.food_pairing}} <br>  {{this.brewers_tips}} </p>  
+{{/each}}
+
+
+
